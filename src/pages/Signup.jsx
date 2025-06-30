@@ -27,7 +27,7 @@ const Signup = () => {
     }
 
     try {
-      await axios.post('http://localhost:5000/users', form);
+      await axios.post('https://react-project-1-1-pccz.onrender.com/users', form);
       alert("Signup successful");
       navigate('/login');
     } catch (error) {
